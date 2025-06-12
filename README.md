@@ -1,14 +1,34 @@
-# Tic-Tac-Toe-MTC Stall Game
-A classic Tic Tac Toe game built only using HTML (no libraries or frameworks). Perfect for beginners learning DOM manipulation and game logic.
+Tic-Tac-Toe Stall For MTC 
+A simple and interactive Tic-Tac-Toe game built with Python. This console-based two-player game features real-time board updates, automatic win/draw detection, and the ability to restart after a match. Perfect for beginners exploring the basics of Python programming.
 
-## ✨ Features
+✨ Features
+Two-player (X and O) turn-based gameplay
+Visual board display in the terminal
+Win and draw detection logic
+Move validation to prevent overwriting
+Option to restart the game after it ends
+Beginner-friendly structure and comments
+🚀 Getting Started
+Prerequisites
+Python 3.x installed on your machine
+Running the Game
+Clone this repository:
+git clone https://github.com/siamhn432/TicTacToe-Restartable-project.git
+cd TicTacToe-Restartable-project
+🎯 How to Play The board is numbered 0 to 8 like this: 0 | 1 | 2 ---+---+--- 3 | 4 | 5 ---+---+--- 6 | 7 | 8
 
-- Turn-based 2-player game (X and O)
-- Win/draw detection with visual feedback
-- Restart game functionality
-- Clean and responsive layout
+Players take turns entering a number to place their mark (X or O)
 
-## 🛠️ Tech Stack
+The game ends when someone wins or the board is full
 
-- HTML5
+After the result, you’ll be asked whether you want to play again
 
+🧠 Concepts Covered Loops and conditionals
+
+Function-based programming
+
+List manipulation
+
+User input handling
+
+Basic game logic (no computer opponent, player-vs-player only)
